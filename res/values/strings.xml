@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LibraryAPP</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="bookStng">Books</string>
+    <string name="loginStng">Login</string>
+    <string name="title_activity_department">DepartmentActivity</string>
+    <string name="title_activity_semester">SemesterActivity</string>
+    <string name="title_activity_subject">SubjectActivity</string>
+    <string name="title_activity_book">BookActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+</resources>

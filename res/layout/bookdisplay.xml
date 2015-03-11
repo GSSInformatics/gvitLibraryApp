@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/serialNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="BookNum"
+        android:visibility="visible" 
+        android:textColor="#040404"
+        android:textSize="25dip"
+        android:textStyle="bold"/>
+    
+    <TextView
+        android:id="@+id/bookName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/serialNum"
+        android:text="BookName"
+        android:textColor="#040404"
+        android:textSize="25dip"
+        android:textStyle="bold"
+        android:visibility="visible" />
+    
+      <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bookName"
+        android:layout_alignLeft="@+id/bookName"
+        android:paddingTop="5dip"
+        android:layout_centerHorizontal="true"
+        android:textColor="#343434"
+        android:textSize="15dip"
+        android:text="Author"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/edition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bookName"
+        android:layout_alignBottom="@+id/bookName"
+        android:layout_toRightOf="@+id/bookName"
+        android:paddingLeft="5dip"
+        android:text="Edition"
+        android:textColor="#040404"
+        android:textSize="25dip"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/available"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edition"
+        android:layout_alignBottom="@+id/edition"
+        android:layout_alignParentRight="true"
+        android:paddingRight="5dip"
+        android:text="Available"
+        android:textColor="#040404"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:visibility="visible" />
+    
+</RelativeLayout>
